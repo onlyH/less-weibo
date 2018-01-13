@@ -547,6 +547,31 @@ hr {
   margin: 10px 0;
   padding-bottom: 1px;
 }
+.star_list {
+  border: 1px solid #cccccc;
+  *zoom: 1;
+  font-size: 12px;
+  text-align: center;
+}
+.star_list:before,
+.star_list:after {
+  display: table;
+  content: "";
+}
+.star_list:after {
+  clear: both;
+}
+.star_list p {
+  background-color: antiquewhite;
+  border: 1px solid #cccccc;
+}
+.star_list ul {
+  background-color: #b4d66d;
+  display: none;
+}
+.star_list .star_ul_show {
+  display: block;
+}
 .hot_title {
   height: 38px;
   line-height: 38px;
